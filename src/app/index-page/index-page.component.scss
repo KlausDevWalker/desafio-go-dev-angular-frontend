@@ -15,3 +15,26 @@
     text-transform: uppercase;
   }
 }
+
+.final-amount {
+  display: flex;
+  height: 250px;
+  background: darkorchid;
+
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 58px;
+    color: white;
+
+    &.green {
+      color: lighten(green, 12%);
+    }
+    &.red {
+      color: lighten(red, 12%);
+    }
+  }
+}
