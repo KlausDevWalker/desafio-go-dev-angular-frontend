@@ -15,13 +15,14 @@
     letter-spacing: 1px;
     font-weight: 900;
     text-transform: uppercase;
+    color: $dark;
   }
 }
 
 .final-amount {
   display: flex;
   height: 250px;
-  background: darkorchid;
+  background: $dark;
 
   justify-content: center;
   align-items: center;
@@ -33,10 +34,10 @@
     color: white;
 
     &.green {
-      color: lighten(green, 12%);
+      color: lighten($green, 12%);
     }
     &.red {
-      color: lighten(red, 12%);
+      color: lighten($red, 12%);
     }
   }
 }
@@ -49,7 +50,5 @@
 
   .add-item-container {
     width: 680px;
-    background: red;
-    height: 50px;
   }
 }
