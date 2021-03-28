@@ -50,5 +50,9 @@
 
   .add-item-container {
     width: 680px;
+  
+    app-add-item-form {
+      padding: 20px;
+    }
   }
 }
