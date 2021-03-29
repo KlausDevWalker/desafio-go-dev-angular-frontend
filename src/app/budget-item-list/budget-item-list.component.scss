@@ -25,6 +25,16 @@
 				font-weight: 900;
 				text-transform: uppercase;
 			}
+			
+			app-budget-item-card {
+				margin-bottom: 20px;
+			}
+			
+			.budget-item {
+				display: flex;
+				flex-direction: column;
+				margin-top: 20px;
+			}
 		}
 		
 		.income-column {
